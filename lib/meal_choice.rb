@@ -4,8 +4,6 @@ require "pry"
 def meal_choice(veg,carb,meat = "tofu")
   puts "What a nutritious meal!"
   var = "A plate of #{meat} with #{veg} and #{carb}."
-  puts var
-  binding.pry
 end
 
 meal_choice("carrots","rice")
