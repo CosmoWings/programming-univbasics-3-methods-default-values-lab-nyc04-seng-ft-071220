@@ -3,7 +3,8 @@
 require "pry"
 def meal_choice(veg,carb,meat = "tofu")
   puts "What a nutritious meal!"
-  puts "A plate of #{meat} with #{veg} and #{carb}."
+  var = "A plate of #{meat} with #{veg} and #{carb}."
+  puts var
   binding.pry
 end
 
