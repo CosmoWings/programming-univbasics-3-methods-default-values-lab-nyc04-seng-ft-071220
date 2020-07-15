@@ -5,4 +5,4 @@ def meal_choice(veg,carb,meat = "chicken")
   puts "A plate of #{meat} with #{veg} and #{carb}."
 end
 
-meal_choice("carrots","rice","ribs")
+meal_choice("carrots","rice")
